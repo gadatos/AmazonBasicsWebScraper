@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/sparklingwaterlemon/puppeteer-iiif/issues"
   },
-  "homepage": "https://github.com/sparklingwaterlemon/puppeteer-iiif#readme"
+  "homepage": "https://github.com/sparklingwaterlemon/puppeteer-iiif#readme",
+  "dependencies": {
+    "puppeteer": "^19.8.5"
+  }
 }
