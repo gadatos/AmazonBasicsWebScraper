@@ -23,8 +23,8 @@ const puppeteer = require("puppeteer");
 
     // Wait for the product items to load
     console.log("waitFor 100 items"); // console.log
-    // const timeout = 30000; // 30 second timeout
-    const timeout = 2000; // 2 second timeout - test
+    const timeout = 30000; // 30 second timeout
+    // const timeout = 2000; // 2 second timeout - test
     const start = Date.now(); // current millisecond
     let itemsLoaded = 0;
 
@@ -40,7 +40,7 @@ const puppeteer = require("puppeteer");
         console.log(`Loaded ${itemsLoaded} items so far...`);
     };
     if(itemsLoaded < 100){
-        console.log(`Only loaded ${itemsLoaded} before timeout of ${timeout / 1000}`)
+        console.log(`Only loaded ${itemsLoaded} before timeout of ${timeout / 1000} seconds`)
     };
 
     // Find all of the product items on the page
