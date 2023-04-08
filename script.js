@@ -7,9 +7,9 @@ const puppeteer = require("puppeteer");
     });
     const page = await browser.newPage();
     await page.goto("https://example.com");
-    await page.screenshot({ path: "example2.png" });
+    await page.screenshot({ path: "example1.png" });
 
-    await browser.close();
+    // await browser.close();
 })();
 
 
@@ -31,7 +31,7 @@ const puppeteer = require("puppeteer");
 //     await page.goto('https://developer.chrome.com/');
 
 //     // Set screen size
-//     await page.setViewport({ width: 1080, height: 1024 });
+//     await page.setViewport({ width: 1280, height: 720 });
 
 //     // Type into search box
 //     await page.type('.search-box__input', 'automate beyond recorder');
