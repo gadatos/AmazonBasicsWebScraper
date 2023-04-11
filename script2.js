@@ -29,13 +29,13 @@ const puppeteer = require("puppeteer");
     let itemsLoaded = 0;
 
     while(itemsLoaded < 100 && Date.now() - start < timeout) {
-        console.log("inside while() page.evalute()");
+        // console.log("inside while() page.evalute()");
         await page.evaluate(() => {
             window.scrollBy(0, window.innerHeight);
         });
-        await page.waitForTimeout(1500); // wait 1.5 seconds for new items to load
+        await page.waitForTimeout(1000); // wait 1 seconds for new items to load
 
-        console.log("about to await page.$$eval");
+        // console.log("about to await page.$$eval");
         itemsLoaded = await page.$$eval(".ProductGridItem__image__ih70n", (items) => items.length);
         console.log(`Loaded ${itemsLoaded} items so far...`);
     };
