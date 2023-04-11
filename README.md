@@ -48,14 +48,12 @@ This project was created as a test run of Puppeteer.js and demonstrates how Pupp
   </ol>
 </details>
 
-
+<br />
 
 <!-- ABOUT THE PROJECT -->
 ## Getting Started
 
 Instructions to get the copy of the project up and running on your local machine for development and testing purposes.
-
-<br />
 
 ### Built With
 
