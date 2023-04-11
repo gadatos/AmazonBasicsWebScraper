@@ -21,7 +21,7 @@ This project was created as a test run of Puppeteer.js and demonstrates how Pupp
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#getting-started">Getting Start</a>
+      <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
         <li><a href="#prerequisites">Prerequisites</a></li>
@@ -33,7 +33,13 @@ This project was created as a test run of Puppeteer.js and demonstrates how Pupp
       <a href="#preventing-endless-execution-with-the-timeout-option">Preventing Endless Execution with the Timeout Option</a>
       <ul>
         <li><a href="#timeout">Timeout</a></li>
-        <li><a href="#scrolling-behavior">Scrolling Behavior</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#scrolling-behavior">Scrolling Behavior</a>
+      <ul>
+        <li><a href="#viewport">viewport</a></li>
+        <li><a href="#while-loop">While Loop</a></li>
       </ul>
     </li>
     <li>
@@ -48,7 +54,7 @@ This project was created as a test run of Puppeteer.js and demonstrates how Pupp
   </ol>
 </details>
 
-
+<br />
 
 <!-- ABOUT THE PROJECT -->
 ## Getting Started
@@ -80,7 +86,6 @@ To run the script, use the following command:
  npm start 
  ```
 
-<br />
 
 ### Configuration
 
@@ -113,7 +118,9 @@ Note that increasing the timeout can increase the time it takes for the script t
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-### Scrolling Behavior
+## Scrolling Behavior
+
+### Viewport
 
 The Amazon Basics store page loads more items as you scroll down the page, rather than requiring a click to go to the next page. This <strong>webpage format</strong> may depend on the viewport size, which we set to a consistent value using the following code:
 ```
@@ -121,8 +128,9 @@ The Amazon Basics store page loads more items as you scroll down the page, rathe
 ```
 By setting the viewport size to a fixed width and height, we can ensure that the <strong> webpage format </strong> stays consist throughout other machines and we can follow the  <strong> same method of scraping </strong> regardless of machine, by <em> scrolling down</em>.
 
+<br />
 
-<hr />
+### While Loop
 
 To ensure that the script finds all 100 product items on the Amazon Basics store page, we use the following while loop. The loop scrolls down the page until 100 items have been loaded, or until the specified timeout has been reached.
 
