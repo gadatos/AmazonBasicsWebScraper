@@ -101,15 +101,44 @@ To modify these options, edit the `puppeteer.launch()` method in `index.js`.
 
 #### Timeout
 
-The scrapper includes a timeout option that determines how long the scrapper will wait for the product items to load. If the scrapper does not find 100 items within the specified time, it will stop and output the number of items it found. By default, the timeout is set to 30 seconds.
+The script includes a timeout option that determines how long puppeteer will wait for the product items to load. If the scrapper does not find 100 items within the specified time, it will stop and output the number of items it found. By default, the timeout is set to 30 seconds.
 
 To modify the timeout, edit the `timeout` variable in `script2.js`.
 
-Note that increasing the timeout can increase the time it takes for the scrapper to complete, while decreasing the timeout can increase the risk of the scrapper not finding all 100 items. The timeout value should be set based on the performance of the website being scraped and the speed of your internet connection.
+Note that increasing the timeout can increase the time it takes for the script to complete, while decreasing the timeout can increase the risk of the scrapper not finding all 100 items. The timeout value should be set based on the performance of the website being scraped and the speed of your internet connection.
 
+<br />
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+#### Scrolling Behavior
+
+The Amazon Basics store page loads more items as you scroll down the page, rather than requiring a click to go to the next page. This <strong>webpage format</strong> may depend on the viewport size, which we set to a consistent value using the following code:
+```
+ await page.setViewport({ width: 1280, height: 720 });
+```
+By setting the viewport size to a fixed width and height, we can ensure that the <strong> webpage format </strong> stays consist throughout other machines and we can follow the  <strong> same method of scraping </strong> regardless of machine, by <em> scrolling down</em>.
+
+
+<hr />
+
+To ensure that the script finds all 100 product items on the Amazon Basics store page, we use the following while loop. The loop scrolls down the page until 100 items have been loaded, or until the specified timeout has been reached.
+
+```
+ while(itemsLoaded < 100 && Date.now() - start < timeout) {
+        await page.evaluate(() => {
+            window.scrollBy(0, window.innerHeight);
+        });
+        await page.waitForTimeout(1000); // wait 1 seconds for new items to load
+
+        itemsLoaded = await page.$$eval(".ProductGridItem__image__ih70n", (items) => items.length);
+ };
+```
+
+<br />
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- DEMO -->
