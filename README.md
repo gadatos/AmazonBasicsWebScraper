@@ -33,6 +33,7 @@ This project was created as a test run of Puppeteer.js and demonstrates how Pupp
       <a href="#preventing-endless-execution-with-the-timeout-option">Preventing Endless Execution with the Timeout Option</a>
       <ul>
         <li><a href="#timeout">Timeout</a></li>
+        <li><a href="#scrolling-behavior">Scrolling Behavior</a></li>
       </ul>
     </li>
     <li>
@@ -54,18 +55,18 @@ This project was created as a test run of Puppeteer.js and demonstrates how Pupp
 
 Instructions to get the copy of the project up and running on your local machine for development and testing purposes.
 
-#### Built With
+### Built With
 
 * Puppeteer.js
 
 
-#### Prerequisites
+### Prerequisites
 
 Project requires Node.js and npm installed.
 
 <br />
 
-#### Installing and Usage
+### Installing and Usage
 
 To install dependencies, run the following command:
 
@@ -81,7 +82,7 @@ To run the script, use the following command:
 
 <br />
 
-#### Configuration
+### Configuration
 
 The script was configured with the following options:
 
@@ -99,7 +100,7 @@ To modify these options, edit the `puppeteer.launch()` method in `index.js`.
 <!-- Timeout Option -->
 ## Preventing Endless Execution with the Timeout Option
 
-#### Timeout
+### Timeout
 
 The script includes a timeout option that determines how long puppeteer will wait for the product items to load. If the scrapper does not find 100 items within the specified time, it will stop and output the number of items it found. By default, the timeout is set to 30 seconds.
 
@@ -112,7 +113,7 @@ Note that increasing the timeout can increase the time it takes for the script t
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-#### Scrolling Behavior
+### Scrolling Behavior
 
 The Amazon Basics store page loads more items as you scroll down the page, rather than requiring a click to go to the next page. This <strong>webpage format</strong> may depend on the viewport size, which we set to a consistent value using the following code:
 ```
@@ -144,10 +145,10 @@ To ensure that the script finds all 100 product items on the Amazon Basics store
 <!-- DEMO -->
 ## Demo
 
-#### Movie
+### Movie
 Insert Movie File here
 
-#### Results
+### Results
 Insert photo of results here
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
