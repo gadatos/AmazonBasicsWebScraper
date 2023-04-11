@@ -60,15 +60,3 @@ const puppeteer = require("puppeteer");
     console.log("end loop");
     // await browser.close();
 })();
-
-
-
-
-// for (let index = 0; index < products.length; index++) {
-//     const singleProduct = products[index];
-//     const nameElement = await singleProduct.$(".ProductGridItem__image__ih70n img");
-//     const name = await page.evaluate((nameElement) => nameElement.getAttribute("alt"), nameElement);
-  
-//     console.log(`Product ${index + 1}: ${name}`);
-//   }
-
