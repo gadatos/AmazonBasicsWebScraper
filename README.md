@@ -80,7 +80,6 @@ To run the script, use the following command:
  npm start 
  ```
 
-<br />
 
 ### Configuration
 
