@@ -154,10 +154,16 @@ To ensure that the script finds all 100 product items on the Amazon Basics store
 ## Demo
 
 ### Movie
-Insert Movie File here
+
+https://user-images.githubusercontent.com/105463926/231308924-8aa7d615-75c9-4fe9-a308-501a1ef56ade.mp4
+
 
 ### Results
-Insert photo of results here
+
+Sample:
+
+![Screen Shot 2023-04-11 at 4 07 50 PM](https://user-images.githubusercontent.com/105463926/231308980-7d6ecebb-d02d-4f52-b423-e41e2d570f2f.png)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
