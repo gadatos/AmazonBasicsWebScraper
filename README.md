@@ -21,7 +21,7 @@ This project was created as a test run of Puppeteer.js and demonstrates how Pupp
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#getting-started">Getting Start</a>
+      <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
         <li><a href="#prerequisites">Prerequisites</a></li>
