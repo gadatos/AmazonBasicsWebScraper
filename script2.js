@@ -1,6 +1,6 @@
 const puppeteer = require("puppeteer");
 
-(async function puppet(url) {
+(async () => {
 
     // Launch a new browser instance
     console.log("launching browser"); // console.log
@@ -33,7 +33,7 @@ const puppeteer = require("puppeteer");
         await page.evaluate(() => {
             window.scrollBy(0, window.innerHeight);
         });
-        await page.waitForTimeout(1500); // wait 1 seconds for new items to load
+        await page.waitForTimeout(1500); // wait 1.5 seconds for new items to load
 
         console.log("about to await page.$$eval");
         itemsLoaded = await page.$$eval(".ProductGridItem__image__ih70n", (items) => items.length);
@@ -71,3 +71,4 @@ const puppeteer = require("puppeteer");
   
 //     console.log(`Product ${index + 1}: ${name}`);
 //   }
+
