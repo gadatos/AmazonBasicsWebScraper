@@ -38,7 +38,7 @@ This project was created as a test run of Puppeteer.js and demonstrates how Pupp
     <li>
       <a href="#scrolling-behavior">Scrolling Behavior</a>
       <ul>
-        <li><a href="#viewport">viewport</a></li>
+        <li><a href="#viewport">Viewport</a></li>
         <li><a href="#while-loop">While Loop</a></li>
       </ul>
     </li>
