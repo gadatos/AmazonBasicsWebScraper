@@ -16,6 +16,16 @@ This project was created as a test run of Puppeteer.js and demonstrates how Pupp
 
 <br/>
 
+
+<!-- Preview -->
+## Preview
+
+### Preview
+
+https://user-images.githubusercontent.com/105463926/231308924-8aa7d615-75c9-4fe9-a308-501a1ef56ade.mp4
+
+<br/>
+
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -193,4 +203,4 @@ Michael Kim - [@LinkedIn](https://www.linkedin.com/in/michaelkim3/) - michael.de
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/michaelkim3/
+[linkedin-url]: https://www.linkedin.com/in/michaelkimSWE/
