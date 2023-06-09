@@ -5,7 +5,7 @@
 
 <!-- Intro -->
 
-# Puppeteer Amazon Basics Scrapper
+# Amazon Basics Web Scraper
 
 This Puppeteer project is designed to scrape product information from Amazon Basics store page. 
 This project was created as a test run of Puppeteer.js and demonstrates how Puppeteer can be used to automate web scraping tasks.
