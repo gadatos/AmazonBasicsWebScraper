@@ -1,8 +1,5 @@
 <a name="readme-top"></a>
 
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
 <!-- Intro -->
 
 # Amazon Basics Web Scraper
@@ -59,7 +56,6 @@ https://user-images.githubusercontent.com/105463926/231308924-8aa7d615-75c9-4fe9
         <li><a href="#results">Results</a></li>
       </ul>
     </li>
-    <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
@@ -177,18 +173,6 @@ Sample:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<!-- CONTACT -->
-## Contact
-
-Michael Kim - [@LinkedIn](https://www.linkedin.com/in/michael-kim-swe/) - michael.swe.kim@gmail.com
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
@@ -198,9 +182,3 @@ Michael Kim - [@LinkedIn](https://www.linkedin.com/in/michael-kim-swe/) - michae
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/michael-kim-swe/
