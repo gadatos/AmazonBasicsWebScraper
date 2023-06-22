@@ -177,7 +177,6 @@ Sample:
 ## Acknowledgments
 
 * [Michael Kitas](https://www.youtube.com/@MichaelKitas)
-* [ChatGPT](https://chat.openai.com/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
