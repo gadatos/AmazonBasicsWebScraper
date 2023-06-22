@@ -182,7 +182,7 @@ Sample:
 <!-- CONTACT -->
 ## Contact
 
-Michael Kim - [@LinkedIn](https://www.linkedin.com/in/michael-kim-swe/) - michael.dev.kim@gmail.com
+Michael Kim - [@LinkedIn](https://www.linkedin.com/in/michael-kim-swe/) - michael.swe.kim@gmail.com
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
