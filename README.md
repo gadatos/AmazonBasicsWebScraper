@@ -182,7 +182,7 @@ Sample:
 <!-- CONTACT -->
 ## Contact
 
-Michael Kim - [@LinkedIn](https://www.linkedin.com/in/michaelkim3/) - michael.dev.kim@gmail.com
+Michael Kim - [@LinkedIn](https://www.linkedin.com/in/michael-kim-swe/) - michael.dev.kim@gmail.com
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -203,4 +203,4 @@ Michael Kim - [@LinkedIn](https://www.linkedin.com/in/michaelkim3/) - michael.de
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/michaelkimSWE/
+[linkedin-url]: https://www.linkedin.com/in/michael-kim-swe/
